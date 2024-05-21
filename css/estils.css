@@ -1,0 +1,1780 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@font-face {
+  font-family: Arboria;
+  src: url(../fonts/Web/Arboria-Bold.woff);
+}
+
+@font-face {
+  font-family: Amandine;
+  src: url(../fonts/Web/Amandine-Regular.woff);
+}
+
+@font-face {
+  font-family: Semplicita;
+  src: url(../fonts/Web/Semplicita-Light.woff);
+}
+
+@media screen and (min-width: 1025px){
+
+/*inici*/
+#inici{
+  width: 100%;
+  height: 1170px;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0px;
+  overflow: hidden;
+}
+
+#inici h1{
+  color: white;
+  font-size: 220px;
+  margin-left: 120px;
+  position: relative;
+  font-family: Arboria;
+  font-weight: bold;
+}
+
+.rectangle{
+  width: 550px;
+  height: 140px;
+  float: left;
+}
+
+.rectangle.rojo{
+  position: relative;
+  margin-top: 350px;
+  background-color: #FF0000;
+}
+
+.rectangle.tazas{
+  width: 750px;
+  height: 460px;
+  margin-top: 350px;
+  margin-left: 750px;
+  background-image: url(../img/tazas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*menu*/
+nav{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  overflow: hidden;
+}
+
+nav .logo{
+  background-color: ;
+  margin-left: 30px;
+  margin-top: 20px;
+  background-image: url(../img/Logo_Artwork.png);
+  width: 275px;
+  height: 52px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+}
+
+nav ul{
+  margin-top: 20px;
+  float: right;
+  width: 430px;
+  height: 52px;
+}
+
+nav li{
+  width: 113px;
+  height: 52px;
+  float: left;
+  margin: 0 10px;
+  text-align: center;
+  line-height: 52px;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FF0000;
+  list-style-type: none;
+  transition: color 0.5s ease;
+}
+
+nav li:hover{
+  color: black;
+}
+
+/*Menu hamburguesa*/
+label{
+  display: none;
+}
+
+/*Qui som?*/
+#nostros{
+  width: 100%;
+  height: 840px;
+  background-color: ;
+  overflow: hidden;
+}
+
+.nostros_caixa{
+  width: 90%;
+  padding: 20px;
+  background-color: ;
+  margin: 0 auto;
+  top: 100px; 
+}
+
+.nostros{
+  width: 880px;
+  height: 600px;
+  background-color: ;
+  float: left;
+}
+
+.nostros.imagen{
+  background-image: url(../img/ordinador.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nostros.text{
+  height: 250px;
+  width: 770px;
+  float: right;
+  top: 170px;
+  background-color: pink;
+}
+
+.nostros.text h1{
+  color: #FF0000;
+  width: 45%;
+  font-size: 50px;
+  font-family: Amandine;
+  font-weight: bolder;
+  text-align: right;
+}
+
+.nostros.text p{
+  text-align: right;
+  font-size: 30px;
+  margin: 13px; 
+  font-family: Semplicita;
+}
+
+/*Missió i Visió*/
+#mission{
+  width: 100%;
+  height: 800px;
+  background-color: black;
+  background-image: url(../img/people.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.mission.text{
+  width: 1030px;
+  height: 630px;
+  background-color: black;
+  filter: opacity(80%);
+  margin: 0 auto;
+  top: 70px;  
+}
+
+#mission h1{
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  font-family: Amandine;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+#mission p{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  width: 970px;
+  font-family: Semplicita;
+  margin: 30px;
+}
+
+#mission .linia_rojo{
+  width: 400px;;
+  height: 10px;
+  background-color: #FF0000;
+  margin: 0 auto;
+
+}
+
+/*Valors*/
+#valors{
+  width: 100%;
+  height: 980px;
+  background-color: ;
+  padding-top: 60px;
+  overflow: hidden;
+}
+
+.valors_caixa{
+  width: 1354px;
+  height: 910px;
+  background-color: ;
+  margin: 0 auto;
+}
+
+.valors{
+  width: 400px;
+  height: 610px;
+  background-color: ;
+  float: left;
+  margin: 0 auto;
+  margin: 30px;
+  background-color: ;
+}
+
+.valors h1{
+  color: #FF0000;
+  font-size: 65px;
+  font-family: Amandine;
+  font-weight: bolder;
+}
+
+.valors h2{
+  font-size: 30px;
+  margin-bottom: 90px;
+  font-family: Amandine;
+  font-weight: 200;
+}
+
+.valors p{
+  font-size: 30px;
+  margin: 20px;
+  font-family: Semplicita;
+}
+
+.valors.titulo{
+  height: 75px;
+  width: 205px;
+}
+
+.valors.subtitulo{
+  height: 660px;
+  width: 220px;
+  margin-top: 55px;
+}
+
+.valors.par{
+  height: 850px;
+  width: 745px;
+  margin-top: 30px;
+}
+
+/*Objectius*/
+#objectius{
+  width: 100%;
+  height: 700px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.objectius_caixa{
+  width: 77%;
+  height: 500px;
+  background-color: ;
+  margin: 0 auto;
+  top: 100px;  
+}
+
+.objectius{
+  width: 800px;
+  height: 500px;
+  background-color: ;
+  float: left;
+}
+
+.objectius.text{
+  width: 680px;
+  height: 310px;
+  top: 100px;
+}
+
+.objectius.imagen{
+  background-image: url(../img/outdoors.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: sepia(280%);
+  float: right;
+}
+
+.objectius.text h1{
+  font-size: 65px;
+  color: white;
+  text-align: left;
+  font-family: Amandine;
+  font-weight: bolder;
+}
+
+.objectius.text p{
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  font-family: Semplicita;
+}
+
+/*Inici Contacte*/
+#contacte{
+  width: 100%;
+  height: 300px;
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+#contacte h1{
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 20px;
+  font-family: Amandine;
+  font-weight: bolder;
+}
+
+#contacte p{
+  text-align: center;
+  font-size: 30px;
+  font-family: Semplicita;
+}
+
+#contacte .linia{
+  width: 400px;
+  height: 10px;
+  background-color: #FF0000;
+  max-width: 0 auto;
+  top: 20px;
+  margin: 0 auto;
+}
+
+/*Footer*/
+#footer{
+  width: 100%;
+  height: 65px;
+  background-color: rgb(226, 226, 226);
+  text-align: center;
+  overflow: hidden;
+}
+
+#footer h3{
+  line-height: 30px;
+  font-family: Semplicita;
+}
+
+/*................*/
+/*Pàgina serveis*/
+/*Nostres Serveis*/
+#serveis{
+  width: 100%;
+  height: 1170px;
+  background-color: white;
+  top: 0px;
+  overflow: hidden;
+}
+
+
+#serveis h1{
+  color: black;
+  font-size: 220px;
+  margin-left: 120px;
+  position: relative;
+  font-family: Arboria;
+  font-weight: bold;
+}
+
+
+/*Disseny div blanc*/
+#blanc{
+  width: 100%;
+  height: 800px;
+  background-color: ;
+  overflow: hidden;
+}
+
+
+.blanc_caixa{
+  width: 90%;
+  height: 600px;
+  background-color: ;
+  margin: 0 auto;
+  top: 100px;
+}
+
+
+.blanc{
+  width: 880px;
+  height: 600px;
+  background-color: ;
+  float: left;
+}
+
+
+.blanc.imagen{
+  background-image: url(../img/ordinador.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.blanc.text{
+  height: 250px;
+  width: 770px;
+  float: right;
+  top: 170px;
+  background-color: ;
+}
+
+
+.blanc.text h1{
+  color: #FF0000;
+  text-align: right;
+  font-size: 50px;
+  font-family: Amandine;
+  font-weight: bolder;
+}
+
+
+.blanc.text p{
+  text-align: right;
+  font-size: 30px;
+  margin: 13px;
+  font-family: Semplicita;
+}
+
+
+
+
+/*Disseny div negre*/
+#negre{
+  width: 100%;
+  height: 800px;
+  background-color: black;
+  overflow: hidden;
+}
+
+
+.negre_caixa{
+  width: 90%;
+  height: 600px;
+  background-color: ;
+  margin: 0 auto;
+  top: 100px;
+}
+
+
+.negre{
+  width: 880px;
+  height: 600px;
+  background-color: ;
+  float: left;
+}
+
+
+.negre.imagen{
+  background-image: url(../img/ordinador.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: right;
+}
+
+
+.negre.text{
+  height: 250px;
+  width: 770px;
+  top: 170px;
+  background-color: ;
+}
+
+
+.negre.text h1{
+  color: white;
+  text-align: left;
+  font-size: 50px;
+  font-family: Amandine;
+  font-weight: bolder;
+}
+
+
+.negre.text p{
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  margin: 0px;
+  font-family: Semplicita;
+}
+
+
+
+/*................*/
+/*Pàgina contacte*/
+#mapa{
+  margin-top: 90px;
+}
+
+.container_contacto{
+  width:500px;
+  height: 570px;;
+  background-color: transparent;
+  display: flex;
+  top: 50px;
+  margin: 0 auto;
+}
+
+form{
+  background-color: white;
+  box-shadow: 0 0 5px #FF0000,
+              0 0 5px #FF0000;
+  display:flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width:90%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin: 0 auto;
+  bottom: 80px;
+}
+
+form h3{
+  color:gray;
+  font-weight:800;
+  margin-bottom: 20px;
+}
+
+form input, form textarea{
+  border:0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+form button{
+  padding: 15px;
+  background: black;
+  color:#fff;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin:20px auto 0;
+  border-radius:30px; 
+}
+
+form button:hover{
+  box-shadow: 0 0 5px #FF0000,
+              0 0 5px #FF0000;
+}
+
+}
+
+@media screen and (min-width:481px) and (max-width:1024px){
+ 
+  /*inici*/
+  #inici{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  #inici h1{
+    color: white;
+    font-size: 130px;
+    margin-left: 80px;
+    position: relative;
+    font-family: Arboria;
+    font-weight: bolder;
+  }
+
+  .rectangle{
+    width: 315px;
+    height: 95px;
+    float: left;
+  }
+  
+  .rectangle.rojo{
+    position: relative;
+    margin-top: 200px;
+    background-color: #FF0000;
+  }
+  
+  .rectangle.tazas{
+    width: 350px;
+    height: 280px;
+    margin-top: -80px;
+    margin-left: 650px;
+    background-image: url(../img/tazas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /*menu*/
+  nav{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    overflow: hidden;
+  }
+  
+  nav .logo{
+    background-color: ;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-image: url(../img/Logo_Artwork.png);
+    width: 275px;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+  }
+  
+  nav ul{
+    margin-top: 20px;
+    float: right;
+    width: 440px;
+    height: 52px;
+  }
+  
+  nav li{
+    width: 113px;
+    height: 52px;
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 52px;
+    font-size: 25px;
+    color: #FF0000;
+    list-style-type: none;
+    transition: color 0.5s ease;
+  }
+  
+  nav li:hover{
+    color: black;
+  }
+
+  /*Menu Hamburguesa*/
+  label{
+    display: none;
+  }
+  
+  /*Qui som?*/
+  #nostros{
+    width: 100%;
+    height: 450px;
+    background-color: ;
+    overflow: hidden;
+  }
+  
+  .nostros_caixa{
+    width: 95%;
+    height: 300px;
+    background-color: ;
+    margin: 0 auto;
+    top: 80px; 
+  }
+  
+  .nostros{
+    width: 400px;
+    height: 300px;
+    background-color: ;
+    float: left;
+  }
+  
+  .nostros.imagen{
+    background-image: url(../img/ordinador.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .nostros.text{
+    width: 530px;
+    float: right;
+    height: 180px;
+    top: 60px;
+    font-family: Amandine;
+    font-weight: 400;
+  }
+  
+  .nostros.text h1{
+    color: #FF0000;
+    text-align: right;
+    font-size: 45px;
+    font-family: Amandine;
+    font-weight: bolder;
+  }
+  
+  .nostros.text p{
+    text-align: right;
+    font-size: 22px;
+    margin: 13px;
+    width: 500px;
+    font-family: Semplicita;
+  }
+  
+  /*Missió i Visió*/
+  #mission{
+    width: 100%;
+    height: 570px;
+    background-color: black;
+    background-image: url(../img/people.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  
+  .mission.text{
+    width: 600px;
+    height: 470px;
+    background-color: black;
+    filter: opacity(80%);
+    margin: 0 auto;
+    top: 30px;  
+  }
+  
+  #mission h1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    margin-top: 20px;
+    font-family: Amandine;
+    font-weight: bolder;
+  }
+  
+  #mission p{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    width: 600px;
+    font-family: Semplicita;
+  }
+  
+  #mission .linia_rojo{
+    width: 400px;;
+    height: 6px;
+    background-color: #FF0000;
+    margin: 0 auto;
+    top: 20px;
+  }
+  
+  /*Valors*/
+  #valors{
+    width: 100%;
+    height: 800px;
+    background-color: ;
+    padding-top: 60px;
+    overflow: hidden;
+  }
+  
+  .valors_caixa{
+    width: 95%;
+    height: 730px;
+    background-color: ;
+    margin: 0 auto;
+  }
+  
+  .valors{
+    width: 400px;
+    height: 610px;
+    background-color: ;
+    float: left;
+    margin: 0 auto;
+    margin: 10px;
+    background-color: ;
+  }
+  
+  .valors h1{
+    color: #FF0000;
+    font-size: 45px;
+    float: left;
+    margin-top: 18px;
+    font-family: Amandine;
+    font-weight: bolder;
+  }
+  
+  .valors h2{
+    font-size: 25px;
+    margin-bottom: 90px;
+    font-family: Amandine;
+  }
+  
+  .valors p{
+    font-size: 22px;
+    margin: 15px;
+    font-family: Semplicita;
+  }
+  
+  .valors.titulo{
+    height: 75px;
+    width: 175px;
+  }
+  
+  .valors.subtitulo{
+    height: 630px;
+    width: 200px;
+    top: 25px;
+  }
+  
+  .valors.par{
+    height: 710px;
+    width: 519px;
+  }
+  
+  /*objectius*/
+  #objectius{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  .objectius_caixa{
+    width: 95%;
+    height: 300px;
+    background-color: ;
+    margin: 0 auto;
+    top: 80px;
+  }
+  
+  .objectius.text{
+    width: 450px;
+    height: 220px;
+    margin-top: 40px;
+  }
+  
+  .objectius.imagen{
+    background-image: url(../img/outdoors.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: sepia(280%);
+    float: right;
+    width: 440px;
+    height: 300px;
+  }
+  
+  .objectius{
+    width: 400px;
+    height: 300px;
+    background-color: ;
+    float: left;
+  }
+  
+  .objectius.text h1{
+    text-align: left;
+    font-size: 45px;
+    color: white;
+    font-family: Amandine;
+    font-weight: bolder;
+  }
+  
+  .objectius.text p{
+    text-align: left;
+    font-size: 22px;
+    margin-top: 13px;
+    color: white;
+    font-family: Semplicita;
+  }
+  
+  /*Inici Contacte*/
+  #contacte{
+    width: 100%;
+    height: 215px;
+    background-color: ;
+    padding-top: 30px;
+    overflow: hidden;
+  }
+  
+  #contacte h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-family: Amandine;
+    font-weight: bolder;
+  }
+  
+  #contacte p{
+    text-align: center;
+    font-size: 22px;
+    font-family: Semplicita;
+  }
+  
+  #contacte .linia{
+    width: 400px;
+    height: 6px;
+    background-color: #FF0000;
+    max-width: 0 auto;
+    top: 20px;
+    margin: 0 auto;
+  }
+  
+  /*Footer*/
+  #footer{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  #footer h3{
+    line-height: 30px;
+    font-family: Amandine;
+    font-size: 17px;
+    font-family: Semplicita;
+  }
+
+  /*Pàgina serveis*/
+  /*inici*/
+  #serveis{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+ 
+  #serveis h1{
+    color: white;
+    font-size: 130px;
+    margin-left: 80px;
+    position: relative;
+    font-family: Arboria;
+    font-weight: bolder;
+  }
+
+
+
+
+  /*Disseny div blanc*/
+  #blanc{
+    width: 100%;
+    background-color: ;
+    overflow: hidden;
+    padding: 50px;
+  }
+ 
+  .blanc_caixa{
+    width: 95%;
+    height: 300px;
+    background-color: ;
+    margin: 0 auto;
+  }
+ 
+  .blanc{
+    width: 400px;
+    height: 300px;
+    background-color: ;
+    float: left;
+  }
+ 
+  .blanc.imagen{
+    background-image: url(../img/ordinador.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+ 
+  .blanc.text{
+    width: 530px;
+    float: right;
+    height: 180px;
+    top: 60px;
+    font-family: Amandine;
+    font-weight: 400;
+  }
+ 
+  .blanc.text h1{
+    color: #FF0000;
+    text-align: right;
+    font-size: 45px;
+    font-family: Amandine;
+    font-weight: bolder;
+  }
+ 
+  .blanc.text p{
+    text-align: right;
+    font-size: 22px;
+    margin: 13px;
+    width: 510px;
+    font-family: Semplicita;
+  }
+
+
+  /*Disseny div negre*/
+  /*objectius*/
+  #negre{
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    padding: 50px;
+ 
+  }
+ 
+  .negre_caixa{
+    width: 95%;
+    height: 300px;
+    background-color: ;
+    margin: 0 auto;
+  }
+ 
+  .negre.text{
+    width: 450px;
+    height: 220px;
+
+
+  }
+ 
+  .negre.imagen{
+    background-image: url(../img/outdoors.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: sepia(280%);
+    float: right;
+    width: 440px;
+    height: 300px;
+  }
+ 
+  .negre{
+    width: 400px;
+    height: 300px;
+    background-color: ;
+    float: left;
+  }
+ 
+  .negre.text h1{
+    text-align: left;
+    font-size: 45px;
+    color: white;
+    font-family: Amandine;
+    font-weight: bolder;
+  }
+ 
+  .negre.text p{
+    text-align: left;
+    font-size: 22px;
+    color: white;
+    font-family: Semplicita;
+  }
+
+
+
+
+
+  
+  /*Pàgina contacte*/
+  #mapa{
+    margin-top: 0px;
+  }
+  
+  .container_contacto{
+    width:500px;
+    height: 570px;;
+    background-color: transparent;
+    display: flex;
+    top: 50px;
+    margin: 0 auto;
+  }
+  
+  form{
+    background-color: white;
+    box-shadow: 0 0 5px #FF0000,
+                0 0 5px #FF0000;
+    display:flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width:90%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 0 auto;
+    bottom: 80px;
+  }
+  
+  form h3{
+    color:gray;
+    font-weight:800;
+    margin-bottom: 20px;
+  }
+  
+  form input, form textarea{
+    border:0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+  }
+  
+  form button{
+    padding: 15px;
+    background: black;
+    color:#fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin:20px auto 0;
+    border-radius:30px; 
+  }
+  
+  form button:hover{
+    box-shadow: 0 0 5px #FF0000,
+                0 0 5px #FF0000;
+  }
+
+}
+
+
+
+
+@media screen and (max-width:480px){
+
+nav ul{
+  display: none;   
+}
+
+nav{
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  overflow: hidden;
+}
+
+nav .logo{
+  background-color: ;
+  margin-left: 15px;
+  margin-top: 10px;
+  background-image: url(../img/Logo_Artwork.png);
+  width: 158px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*inici*/
+#inici{
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#inici h1{
+  color: white;
+  font-size: 80px;
+  margin-left: 50px;
+  position: relative;
+  font-family: Arboria;
+  font-weight: bolder;
+}
+
+.rectangle{
+  width: 225px;
+  height: 55px;
+}
+
+.rectangle.rojo{
+  position: relative;
+  margin-top: 80px;
+  background-color: #FF0000;
+}
+
+.rectangle.tazas{
+  width: 350px;
+  height: 280px;
+  top: 70px;
+  margin: 0 auto;
+  background-image: url(../img/tazas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Menu hamburguesa*/
+label .menu {
+  float: right;
+  position: fixed;
+  right: -100px;
+  top: -100px;
+  z-index: 100;
+  width: 200px;
+  height: 200px;
+  background: #FFF;
+  border-radius: 50% 50% 50% 50% ;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  box-shadow: 0 0 0 0 #FF0000, 0 0 0 0 #FF0000;
+  cursor: pointer;
+}
+
+
+label .hamburger {
+  position: absolute;
+  top: 135px;
+  left: 50px;
+  width: 30px;
+  height: 2px;
+  background-color: #FF0000;
+  display: block;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+label .hamburger:after, label .hamburger:before {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #FF0000;
+}
+
+label .hamburger:before{ 
+  top: -10px; 
+}
+
+label .hamburger:after{ 
+  bottom: -10px; 
+}
+
+label input{ 
+  display: none;
+}
+
+label input:checked + .menu{
+  box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
+  border-radius: 0;
+}
+
+label input:checked + .menu .hamburger{
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+label input:checked + .menu .hamburger:after{
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  bottom: 0;
+}
+
+label input:checked + .menu .hamburger:before{
+ -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 0;
+}
+
+label input:checked + .menu + ul{ 
+  opacity: 1;
+}
+
+label ul{
+  z-index: 200;
+  position: absolute;
+  background-color: ;
+  width: 110px;
+  top: 350px;
+  left: 240px;
+  font-size: 28px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: .25s 0s ease-in-out;
+  transition: .25s 0s ease-in-out;
+  font-family: Arboria;
+  list-style: none;
+}
+
+label a {
+  margin-bottom: 1em;
+  display: block;
+  color: #FF0000;
+  text-decoration: none;
+}
+
+/*Qui som?*/
+#nostros{
+  width: 100%;
+  height: 580px;
+  background-color: ;
+  overflow: hidden;
+}
+
+.nostros_caixa{
+  width: 95%;
+  height: 300px;
+  background-color: ;
+  margin: 0 auto;
+  top: 50px; 
+}
+
+.nostros{
+  width: 400px;
+  height: 300px;
+  background-color: ;
+  margin: 0 auto;
+}
+
+.nostros.imagen{
+  background-image: url(../img/ordinador.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nostros.text{
+  top: 30px;
+  font-family: Amandine;
+  font-weight: 400;
+}
+
+.nostros.text h1{
+  color: #FF0000;
+  text-align: right;
+  font-size: 30px;
+  font-family: Amandine;
+  font-weight: bolder;
+}
+
+.nostros.text p{
+  text-align: right;
+  font-size: 18px;
+  margin: 13px;
+  font-family: Semplicita;
+}
+
+/*Missió i Visió*/
+#mission{
+  width: 100%;
+  height: 470px;
+  background-color: black;
+  background-image: url(../img/people.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.mission.text{
+  width: 400px;
+  height: 410px;
+  background-color: black;
+  filter: opacity(80%);
+  margin: 0 auto;
+  top: 10px;  
+}
+
+#mission h1{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: Amandine;
+  font-weight: bolder;
+}
+
+#mission p{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: Semplicita;
+}
+
+#mission .linia_rojo{
+  width: 300px;;
+  height: 6px;
+  background-color: #FF0000;
+  margin: 0 auto;
+  top: 10px;
+}
+
+/*Valors*/
+#valors{
+  width: 100%;
+  height: 1170px;
+  background-color: ;
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+.valors_caixa{
+  width: 95%;
+  height: 730px;
+  background-color: pink;
+  margin: 0 auto;
+}
+
+.valors{
+  width: 200px;
+  height: 610px;
+  background-color: ;
+  margin: 0 auto;
+  margin: 3px;
+  background-color: antiquewhite;
+}
+
+.valors h1{
+  color: #FF0000;
+  font-size: 30px;
+  float: left;
+  margin-top: 18px;
+  font-family: Amandine;
+  font-weight: bolder;
+}
+
+.valors h2{
+  font-size: 17px;
+  margin-bottom: 240px;
+  font-family: Amandine;
+}
+
+.valors p{
+  font-size: 18px;
+  margin: 15px;
+  font-family: Semplicita;
+  bottom: 650px;
+}
+
+.valors.titulo{
+  height: 75px;
+  width: 95px;
+}
+
+.valors.subtitulo{
+  height: 630px;
+  width: 145px;
+}
+
+.valors.par{
+  height: 1140px;
+  width: 270px;
+  float: right;
+}
+
+/*objectius*/
+#objectius{
+  width: 100%;
+  height: 480px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.objectius_caixa{
+  width: 95%;
+  height: 300px;
+  background-color: ;
+  margin: 0 auto;
+  top: 5px;
+}
+
+.objectius.text{
+  top: 30px;
+  height: 240px;
+}
+
+.objectius.imagen{
+  background-image: url(../img/outdoors.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: sepia(280%);
+}
+
+.objectius{
+  width: 400px;
+  height: 200px;
+  background-color: ;
+  margin: 0 auto;
+
+}
+
+.objectius.text h1{
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  font-family: Amandine;
+  font-weight: bolder;
+}
+
+.objectius.text p{
+  text-align: left;
+  font-size: 18px;
+  margin-top: 13px;
+  color: white;
+  font-family: Semplicita;
+}
+
+/*Inici Contacte*/
+#contacte{
+  width: 100%;
+  height: 185px;
+  background-color: ;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+#contacte h1{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-family: Amandine;
+  font-weight: bolder;
+}
+
+#contacte p{
+  text-align: center;
+  font-size: 18px;
+  font-family: Semplicita;
+}
+
+#contacte .linia{
+  width: 300px;
+  height: 6px;
+  background-color: #FF0000;
+  max-width: 0 auto;
+  top: 20px;
+  margin: 0 auto;
+}
+
+/*Footer*/
+#footer{
+  width: 100%;
+  height: 65px;
+  background-color: rgb(226, 226, 226);
+  text-align: center;
+  overflow: hidden;
+}
+
+#footer h3{
+  line-height: 30px;
+  font-family: Amandine;
+  font-size: 15px;
+  font-family: Semplicita;
+}
+
+/*Pàgina Serveis*/
+/*Nostres Serveis*/
+#serveis{
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  overflow: hidden;
+}
+
+#serveis h1{
+  color: black;
+  font-size: 80px;
+  margin-left: 50px;
+  position: relative;
+  font-family: Arboria;
+  font-weight: bolder;
+}
+
+/*Disseny div blanc*/
+#blanc{
+  width: 100%;
+  height: 580px;
+  background-color: ;
+  overflow: hidden;
+}
+
+.blanc_caixa{
+  width: 95%;
+  height: 300px;
+  background-color: ;
+  margin: 0 auto;
+  top: 50px; 
+}
+
+.blanc{
+  width: 400px;
+  height: 300px;
+  background-color: ;
+  margin: 0 auto;
+}
+
+.blanc.imagen{
+  background-image: url(../img/ordinador.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blanc.text{
+  top: 30px;
+  font-family: Amandine;
+  font-weight: 400;
+}
+
+.blanc.text h1{
+  color: #FF0000;
+  text-align: right;
+  font-size: 30px;
+  font-family: Amandine;
+  font-weight: bolder;
+}
+
+.blanc.text p{
+  text-align: right;
+  font-size: 18px;
+  font-family: Semplicita;
+}
+
+/*Disseny div negre*/
+#negre{
+  width: 100%;
+  height: 480px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.negre_caixa{
+  width: 95%;
+  height: 300px;
+  background-color: ;
+  margin: 0 auto;
+  top: 5px;
+}
+
+.negre.text{
+  top: 30px;
+  height: 240px;
+}
+
+.negre.imagen{
+  background-image: url(../img/outdoors.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: sepia(280%);
+}
+
+.negre{
+  width: 400px;
+  height: 200px;
+  background-color: ;
+  margin: 0 auto;
+}
+
+.negre.text h1{
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  font-family: Amandine;
+  font-weight: bolder;
+}
+
+.negre.text p{
+  text-align: left;
+  font-size: 18px;
+  margin-top: 13px;
+  color: white;
+  font-family: Semplicita;
+}
+
+
+
+
+
+/*Pàgina contacte*/
+#mapa{
+  margin-top: 50px;
+}
+
+.container_contacto{
+  width:400px;
+  height: 490px;;
+  background-color: transparent;
+  display: flex;
+  top: 60px;
+  margin: 0 auto;
+}
+
+form{
+  background-color: white;
+  box-shadow: 0 0 5px #FF0000,
+              0 0 5px #FF0000;
+  display:flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width:70%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 0 auto;
+  bottom: 80px;
+}
+
+form h3{
+  color:gray;
+  font-weight:800;
+  margin-bottom: 20px;
+}
+
+form input, form textarea{
+  border:0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+form button{
+  padding: 10px;
+  background: black;
+  color:#fff;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 130px;
+  margin: 15px auto 0;
+  border-radius:30px; 
+}
+
+form button:hover{
+  box-shadow: 0 0 5px #FF0000,
+              0 0 5px #FF0000;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

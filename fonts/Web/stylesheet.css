@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Amandine';
+    src: url('Amandine-Medium.woff2') format('woff2'),
+        url('Amandine-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amandine';
+    src: url('Amandine-Bold.woff2') format('woff2'),
+        url('Amandine-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amandine';
+    src: url('Amandine-LightItalic.woff2') format('woff2'),
+        url('Amandine-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amandine';
+    src: url('Amandine-BoldItalic.woff2') format('woff2'),
+        url('Amandine-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amandine';
+    src: url('Amandine-Light.woff2') format('woff2'),
+        url('Amandine-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amandine';
+    src: url('Amandine-Regular.woff2') format('woff2'),
+        url('Amandine-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amandine';
+    src: url('Amandine-MediumItalic.woff2') format('woff2'),
+        url('Amandine-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amandine';
+    src: url('Amandine-Italic.woff2') format('woff2'),
+        url('Amandine-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arboria';
+    src: url('Arboria-Bold.woff2') format('woff2'),
+        url('Arboria-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arboria-Book';
+    src: url('Arboria-Book.woff2') format('woff2'),
+        url('Arboria-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arboria';
+    src: url('Arboria-Light.woff2') format('woff2'),
+        url('Arboria-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Semplicita';
+    src: url('Semplicita-BoldItalic.woff2') format('woff2'),
+        url('Semplicita-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Semplicita';
+    src: url('Semplicita-LightItalic.woff2') format('woff2'),
+        url('Semplicita-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Semplicita';
+    src: url('Semplicita-MediumItalic.woff2') format('woff2'),
+        url('Semplicita-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Semplicita';
+    src: url('Semplicita-Bold.woff2') format('woff2'),
+        url('Semplicita-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Semplicita';
+    src: url('Semplicita-Ombra.woff2') format('woff2'),
+        url('Semplicita-Ombra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Semplicita';
+    src: url('Semplicita-Light.woff2') format('woff2'),
+        url('Semplicita-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Semplicita';
+    src: url('Semplicita-Medium.woff2') format('woff2'),
+        url('Semplicita-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

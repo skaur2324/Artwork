@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artwork</title>
+    <link rel="stylesheet" href="../css/estils.css">
+</head>
+<body>
+
+    <!-- Menu --> 
+    <!-- Menu --> 
+    <nav>
+      <div class="logo"></div>
+      <ul>
+          <a href="../artwork.html">
+              <li>Qui som?</li>
+          </a>
+          <a href="../html/serveis.html">
+              <li>Serveis</li>
+          </a>
+          <a href="#mapa">
+              <li>Contacte</li>
+          </a>
+      </ul>   
+  </nav>
+
+  <!-- Menu Hamburguesa -->
+  <label>
+      <input type="checkbox">
+      <span class="menu"> <span class="hamburger"></span> </span>
+      <ul>
+          <a href="../artwork.html">
+              <li>Qui som?</li>
+          </a>
+          <a href="../html/serveis.html">
+              <li>Serveis</li>
+          </a>
+          <a href="#mapa">
+              <li>Contacte</li>
+          </a>
+        
+      </ul>
+  </label>
+
+     <!-- Mapa --> 
+    <div id="mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.837377800015!2d2.0731406154254852!3d41.37761777926507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49979f301c01b%3A0xcd0b566b421b5467!2sIFP%20Antoni%20Alguer%C3%B3!5e0!3m2!1sca!2ses!4v1649347761447!5m2!1sca!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+     <!-- Contacte --> 
+    <div id="contacte">
+      <h1>Contacta'ns!</h1>
+      <p>+ 34 666 66  66 66</p>
+      <p>info@artwork.com</p>
+      <p>Carrer Parlament Català, 1,</p>
+      <p>08960 Sant Just Deserven</p>
+      <div class="linia"></div>
+    </div>
+    
+      <div class="container_contacto">
+        <form onsubmit="sendEmail(); reset(); return false;">
+          <h3></h3>
+          <input type="text"id="name" placeholder="Nom" required>
+          <input type="email"id="email" placeholder="Email" required>
+          <input type="text"id="phone" placeholder="Telf." required>
+          <textarea id="message" rows="4" placeholder="Com et podem ajudar?"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+    
+      </div>
+     
+      <!-- Formulari --> 
+      <script>
+      function sendEmail(){
+        Email.send({
+          Host : "smtp.gmail.com",
+          Username : "exoticflavors66@gmail.com",
+          Password : "sapritsilem",
+          To : 'exoticflavors66@gmail.com.',
+          From : document.getElementById("email").value",
+          Subject : "New Contact Form Enquiry",
+          Body : "Name:" + documentElementById("name").value
+          + "<br>" Email: " + document.getElementById("email").value
+            + "<br>" Phone no: " + document.getElementById("phone").value
+              + "<br>" Message: " + document.getElementById("Message").value
+      }).then(
+        message => alert("Message Sent Successfully")
+      );
+      }
+      </script>
+    
+    <!-- Footer --> 
+    <div id="footer">
+      <h3>
+        Copyright © 2024 per Artwork Studio
+      <br>
+        Creat per Saprit
+      </h3>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
