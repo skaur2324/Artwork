@@ -1418,19 +1418,20 @@ label a {
 /*Qui som?*/
 #nostres{
   width: 100%;
-  height: 210px;
   background-color: ;
   overflow: hidden;
 }
 
 .nostres_caixa{
   width: 95%;
-  background-color: ;
+  background-color:;
   margin: 0 auto;
+  top: 20px;
 }
 
 .nostres{
   width: 400px;
+  height: 200px;
   background-color: ;
   margin: 0 auto;
 }
