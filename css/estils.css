@@ -5,6 +5,9 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+
+
 @font-face {
   font-family: Arboria;
   src: url(../fonts/Web/Arboria-Bold.woff);
@@ -174,7 +177,7 @@ label{
 /*Missió i Visió*/
 #mission{
   width: 100%;
-  height: 800px;
+  height: ;
   background-color: black;
   background-image: url(../img/people.jpg);
   background-size: cover;
@@ -184,7 +187,7 @@ label{
 
 .mission.text{
   width: 100%;
-  height: 800px;
+  height: ;
   background-color: black;
   filter: opacity(80%);
   margin: 0 auto;
@@ -780,7 +783,7 @@ form button:hover{
   /*Missió i Visió*/
   #mission{
     width: 100%;
-    height: 570px;
+    height: ;
     background-color: black;
     background-image: url(../img/people.jpg);
     background-size: cover;
@@ -790,7 +793,7 @@ form button:hover{
   
   .mission.text{
     width: 100%;
-    height: 570px;
+    height: ;
     background-color: black;
     filter: opacity(80%);
     margin: 0 auto;
@@ -1417,7 +1420,6 @@ label a {
 
 /*Qui som?*/
 #nostres{
-  width: 100%;
   height: 580px;
   background-color: ;
   overflow: hidden;
@@ -1468,7 +1470,7 @@ label a {
 /*Missió i Visió*/
 #mission{
   width: 100%;
-  height: 470px;
+
   background-color: black;
   background-image: url(../img/people.jpg);
   background-size: cover;
@@ -1478,7 +1480,7 @@ label a {
 
 .mission.text{
   width: 100%;
-  height: 470px;
+  height: ;
   background-color: black;
   filter: opacity(80%);
   margin: 0 auto; 
@@ -1557,6 +1559,7 @@ label a {
 .sub{
   font-size: 17px;
   font-family: Amandine;
+
 }
 
 .sub.segon{
@@ -1912,6 +1915,11 @@ form button:hover{
               0 0 5px #FF0000;
 }
 
+}
+
+.sub {
+  text-align: right;
+  line-height: 1.5rem;
 }
 
 
