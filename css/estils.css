@@ -124,37 +124,36 @@ label{
 
 /*Qui som?*/
 #nostres{
-  width: 100%;
-  height: 840px;
+
   background-color: ;
   overflow: hidden;
 }
 
 .nostres_caixa{
-  width: 90%;
   padding: 20px;
-  background-color: ;
+  background-color: yellow;
   margin: 0 auto;
-  top: 100px; 
+  top: 100px;
+  overflow: hidden;
 }
 
 .nostres{
   width: 880px;
-  height: 600px;
   background-color: ;
-  float: left;
+
 }
 
 .nostres.imatge{
   background-image: url(../img/ordinador.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  float: left;
 }
 
 .nostres.text{
   height: 230px;
   width: 770px;
-  float: right;
+  float: left;
   top: 190px;
   background-color: ;
 }
@@ -729,14 +728,13 @@ form button:hover{
   /*Qui som?*/
   #nostres{
     width: 100%;
-    height: 450px;
+    height: ;
     background-color: ;
     overflow: hidden;
   }
   
   .nostres_caixa{
     width: 95%;
-    height: 300px;
     background-color: ;
     margin: 0 auto;
     top: 80px; 
@@ -744,20 +742,21 @@ form button:hover{
   
   .nostres{
     width: 400px;
-    height: 300px;
+
     background-color: ;
-    float: left;
+    
   }
   
   .nostres.imatge{
     background-image: url(../img/ordinador.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    float: left;
   }
   
   .nostres.text{
     width: 530px;
-    float: right;
+    float: left;
     height: 180px;
     top: 60px;
     font-family: Amandine;
@@ -1420,14 +1419,12 @@ label a {
 
 /*Qui som?*/
 #nostres{
-  height: 580px;
   background-color: ;
   overflow: hidden;
 }
 
 .nostres_caixa{
   width: 95%;
-  height: 300px;
   background-color: ;
   margin: 0 auto;
   top: 50px; 
@@ -1506,7 +1503,7 @@ label a {
 }
 
 #mission .linia_rojo{
-  width: 300px;;
+  width: 300px;
   height: 4px;
   background-color: #FF0000;
   margin: 0 auto;
@@ -1553,7 +1550,7 @@ label a {
 
 .valors.subtitol{
   height: 630px;
-  width: 145px;
+  max-width: 145px;
 }
 
 .sub{
