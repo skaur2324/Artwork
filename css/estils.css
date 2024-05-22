@@ -54,13 +54,14 @@
   background-color: #FF0000;
 }
 
-.rectangle.tazas{
+.rectangle.tassa{
   width: 750px;
   height: 460px;
   margin-top: 350px;
   margin-left: 750px;
-  background-image: url(../img/tazas.png);
-  background-size: cover;
+  background-image: url(../img/tassa.png);
+  background-size: 150%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -119,14 +120,14 @@ label{
 }
 
 /*Qui som?*/
-#nostros{
+#nostres{
   width: 100%;
   height: 840px;
   background-color: ;
   overflow: hidden;
 }
 
-.nostros_caixa{
+.nostres_caixa{
   width: 90%;
   padding: 20px;
   background-color: ;
@@ -134,41 +135,40 @@ label{
   top: 100px; 
 }
 
-.nostros{
+.nostres{
   width: 880px;
   height: 600px;
   background-color: ;
   float: left;
 }
 
-.nostros.imagen{
+.nostres.imatge{
   background-image: url(../img/ordinador.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.nostros.text{
-  height: 250px;
+.nostres.text{
+  height: 230px;
   width: 770px;
   float: right;
-  top: 170px;
-  background-color: pink;
+  top: 190px;
+  background-color: ;
 }
 
-.nostros.text h1{
+.nostres.text h1{
   color: #FF0000;
-  width: 45%;
   font-size: 50px;
   font-family: Amandine;
   font-weight: bolder;
   text-align: right;
 }
 
-.nostros.text p{
+.nostres.text p{
   text-align: right;
-  font-size: 30px;
-  margin: 13px; 
+  font-size: 30px; 
   font-family: Semplicita;
+  top: 40px;
 }
 
 /*Missió i Visió*/
@@ -183,12 +183,11 @@ label{
 }
 
 .mission.text{
-  width: 1030px;
-  height: 630px;
+  width: 100%;
+  height: 800px;
   background-color: black;
   filter: opacity(80%);
   margin: 0 auto;
-  top: 70px;  
 }
 
 #mission h1{
@@ -197,16 +196,17 @@ label{
   font-size: 65px;
   font-family: Amandine;
   font-weight: bolder;
-  margin-top: 20px;
+  top: 60px;
 }
 
 #mission p{
   text-align: center;
   color: white;
   font-size: 30px;
-  width: 970px;
+  width: 78%;
   font-family: Semplicita;
-  margin: 30px;
+  padding: 60px;
+  margin: 0 auto;
 }
 
 #mission .linia_rojo{
@@ -214,13 +214,13 @@ label{
   height: 10px;
   background-color: #FF0000;
   margin: 0 auto;
-
+  top: 20px;
 }
 
 /*Valors*/
 #valors{
   width: 100%;
-  height: 980px;
+  height: 1050px;
   background-color: ;
   padding-top: 60px;
   overflow: hidden;
@@ -228,19 +228,24 @@ label{
 
 .valors_caixa{
   width: 1354px;
-  height: 910px;
+  height: 990px;
   background-color: ;
   margin: 0 auto;
 }
 
 .valors{
   width: 400px;
-  height: 610px;
+  height: 710px;
   background-color: ;
   float: left;
   margin: 0 auto;
   margin: 30px;
   background-color: ;
+}
+
+.valors.titol{
+  height: 75px;
+  width: 205px;
 }
 
 .valors h1{
@@ -250,35 +255,53 @@ label{
   font-weight: bolder;
 }
 
-.valors h2{
+.valors.subtitol{
+  height: 830px;
+  width: 220px;
+  margin-top: 35px;
+}
+
+.sub{
+  width: 220px;
+  height: 40px;
+  background-color: ;
   font-size: 30px;
   margin-bottom: 90px;
   font-family: Amandine;
   font-weight: 200;
+  line-height: 90px;
 }
 
-.valors p{
+.sub.segon{
+ top: 30px;
+}
+
+.sub.tercer{
+ top: 60px;
+}
+
+.sub.quatre{
+  top: 130px;
+}
+.sub.cinque{
+  top: 160px;
+}
+
+.valors.paragraf{
+  height: 930px;
+  width: 745px;
+  margin-top: 30px;
+  background-color: ;
+}
+
+.par{
+  background-color: ;
+  width: 725px;
   font-size: 30px;
-  margin: 20px;
+  margin: 40px;
   font-family: Semplicita;
 }
 
-.valors.titulo{
-  height: 75px;
-  width: 205px;
-}
-
-.valors.subtitulo{
-  height: 660px;
-  width: 220px;
-  margin-top: 55px;
-}
-
-.valors.par{
-  height: 850px;
-  width: 745px;
-  margin-top: 30px;
-}
 
 /*Objectius*/
 #objectius{
@@ -309,7 +332,7 @@ label{
   top: 100px;
 }
 
-.objectius.imagen{
+.objectius.imatge{
   background-image: url(../img/outdoors.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -330,14 +353,16 @@ label{
   color: white;
   text-align: left;
   font-family: Semplicita;
+  top: 40px;
 }
 
 /*Inici Contacte*/
 #contacte{
   width: 100%;
-  height: 300px;
-  padding-top: 50px;
+  height: 335px;
+  padding-top: 25px;
   overflow: hidden;
+  background-color: ;
 }
 
 #contacte h1{
@@ -352,6 +377,7 @@ label{
   text-align: center;
   font-size: 30px;
   font-family: Semplicita;
+  margin: 12px;
 }
 
 #contacte .linia{
@@ -359,7 +385,7 @@ label{
   height: 10px;
   background-color: #FF0000;
   max-width: 0 auto;
-  top: 20px;
+  top: 30px;
   margin: 0 auto;
 }
 
@@ -388,7 +414,6 @@ label{
   overflow: hidden;
 }
 
-
 #serveis h1{
   color: black;
   font-size: 220px;
@@ -398,7 +423,6 @@ label{
   font-weight: bold;
 }
 
-
 /*Disseny div blanc*/
 #blanc{
   width: 100%;
@@ -406,7 +430,6 @@ label{
   background-color: ;
   overflow: hidden;
 }
-
 
 .blanc_caixa{
   width: 90%;
@@ -416,30 +439,43 @@ label{
   top: 100px;
 }
 
-
 .blanc{
   width: 880px;
   height: 600px;
-  background-color: ;
   float: left;
 }
 
-
-.blanc.imagen{
-  background-image: url(../img/ordinador.jpg);
+.blanc.imatge.grafic{
+  background-image: url(../img/disseny_grafic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.blanc.imatge.web{
+  background-image: url(../img/disseny_web.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blanc.imatge.packaging{
+  background-image: url(../img/packaging.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blanc.imatge.estampacio{
+  background-image: url(../img/estampacio.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .blanc.text{
   height: 250px;
   width: 770px;
   float: right;
-  top: 170px;
+  top: 180px;
   background-color: ;
 }
-
 
 .blanc.text h1{
   color: #FF0000;
@@ -449,16 +485,12 @@ label{
   font-weight: bolder;
 }
 
-
 .blanc.text p{
   text-align: right;
   font-size: 30px;
-  margin: 13px;
   font-family: Semplicita;
+  top: 40px;
 }
-
-
-
 
 /*Disseny div negre*/
 #negre{
@@ -468,7 +500,6 @@ label{
   overflow: hidden;
 }
 
-
 .negre_caixa{
   width: 90%;
   height: 600px;
@@ -477,7 +508,6 @@ label{
   top: 100px;
 }
 
-
 .negre{
   width: 880px;
   height: 600px;
@@ -485,22 +515,33 @@ label{
   float: left;
 }
 
-
-.negre.imagen{
-  background-image: url(../img/ordinador.jpg);
+.negre.imatge.corporatius{
+  background-image: url(../img/disseny_corporatiu.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   float: right;
 }
 
+.negre.imatge.gestio{
+  background-image: url(../img/gestio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: right;
+}
+
+.negre.imatge.impressio{
+  background-image: url(../img/impressio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: right;
+}
 
 .negre.text{
   height: 250px;
   width: 770px;
-  top: 170px;
+  top: 180px;
   background-color: ;
 }
-
 
 .negre.text h1{
   color: white;
@@ -510,18 +551,17 @@ label{
   font-weight: bolder;
 }
 
-
 .negre.text p{
   color: white;
   text-align: left;
   font-size: 30px;
   margin: 0px;
   font-family: Semplicita;
+  top: 40px;
 }
 
-
-
 /*................*/
+
 /*Pàgina contacte*/
 #mapa{
   margin-top: 90px;
@@ -529,10 +569,9 @@ label{
 
 .container_contacto{
   width:500px;
-  height: 570px;;
+  height: 680px;;
   background-color: transparent;
   display: flex;
-  top: 50px;
   margin: 0 auto;
 }
 
@@ -543,11 +582,13 @@ form{
   display:flex;
   flex-direction: column;
   padding: 2vw 4vw;
-  width:90%;
+  width: 85%;
+  height: 480px;
   max-width: 600px;
   border-radius: 10px;
   margin: 0 auto;
-  bottom: 80px;
+  top: 30px;
+  bottom: 30px;
 }
 
 form h3{
@@ -559,7 +600,7 @@ form h3{
 form input, form textarea{
   border:0;
   margin: 10px 0;
-  padding: 20px;
+  padding: 22px;
   outline: none;
   background: #f5f5f5;
   font-size: 16px;
@@ -618,13 +659,14 @@ form button:hover{
     background-color: #FF0000;
   }
   
-  .rectangle.tazas{
+  .rectangle.tassa{
     width: 350px;
     height: 280px;
     margin-top: -80px;
-    margin-left: 650px;
-    background-image: url(../img/tazas.png);
-    background-size: cover;
+    margin-left: 600px;
+    background-image: url(../img/tassa.png);
+    background-size: 180%;
+    background-position: center;
     background-repeat: no-repeat;
   }
   
@@ -682,14 +724,14 @@ form button:hover{
   }
   
   /*Qui som?*/
-  #nostros{
+  #nostres{
     width: 100%;
     height: 450px;
     background-color: ;
     overflow: hidden;
   }
   
-  .nostros_caixa{
+  .nostres_caixa{
     width: 95%;
     height: 300px;
     background-color: ;
@@ -697,20 +739,20 @@ form button:hover{
     top: 80px; 
   }
   
-  .nostros{
+  .nostres{
     width: 400px;
     height: 300px;
     background-color: ;
     float: left;
   }
   
-  .nostros.imagen{
+  .nostres.imatge{
     background-image: url(../img/ordinador.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  .nostros.text{
+  .nostres.text{
     width: 530px;
     float: right;
     height: 180px;
@@ -719,7 +761,7 @@ form button:hover{
     font-weight: 400;
   }
   
-  .nostros.text h1{
+  .nostres.text h1{
     color: #FF0000;
     text-align: right;
     font-size: 45px;
@@ -727,7 +769,7 @@ form button:hover{
     font-weight: bolder;
   }
   
-  .nostros.text p{
+  .nostres.text p{
     text-align: right;
     font-size: 22px;
     margin: 13px;
@@ -747,29 +789,30 @@ form button:hover{
   }
   
   .mission.text{
-    width: 600px;
-    height: 470px;
+    width: 100%;
+    height: 570px;
     background-color: black;
     filter: opacity(80%);
     margin: 0 auto;
-    top: 30px;  
   }
   
   #mission h1{
     text-align: center;
     color: white;
     font-size: 45px;
-    margin-top: 20px;
     font-family: Amandine;
     font-weight: bolder;
+    top: 40px;
   }
   
   #mission p{
     text-align: center;
     color: white;
     font-size: 22px;
-    width: 600px;
+    width: 85%;
     font-family: Semplicita;
+    margin: 0 auto;
+    padding: 50px;
   }
   
   #mission .linia_rojo{
@@ -777,13 +820,12 @@ form button:hover{
     height: 6px;
     background-color: #FF0000;
     margin: 0 auto;
-    top: 20px;
   }
   
   /*Valors*/
   #valors{
     width: 100%;
-    height: 800px;
+    height: 730px;
     background-color: ;
     padding-top: 60px;
     overflow: hidden;
@@ -791,13 +833,13 @@ form button:hover{
   
   .valors_caixa{
     width: 95%;
-    height: 730px;
+
     background-color: ;
     margin: 0 auto;
   }
-  
+
   .valors{
-    width: 400px;
+    width: 510px;
     height: 610px;
     background-color: ;
     float: left;
@@ -815,34 +857,48 @@ form button:hover{
     font-weight: bolder;
   }
   
-  .valors h2{
-    font-size: 25px;
-    margin-bottom: 90px;
-    font-family: Amandine;
-  }
-  
-  .valors p{
-    font-size: 22px;
-    margin: 15px;
-    font-family: Semplicita;
-  }
-  
-  .valors.titulo{
+  .valors.titol{
     height: 75px;
     width: 175px;
   }
   
-  .valors.subtitulo{
+  .valors.subtitol{
     height: 630px;
     width: 200px;
-    top: 25px;
+  }
+
+  .sub{
+    font-size: 25px;
+    font-family: Amandine;
+    top: 10px;
   }
   
-  .valors.par{
-    height: 710px;
-    width: 519px;
+  .sub.segon{
+    top: 100px;
   }
-  
+   
+  .sub.tercer{
+    top: 200px;
+  }
+   
+  .sub.quatre{
+     top: 290px;
+  }
+  .sub.cinque{
+     top: 380px;
+  }
+
+  .valors.paragraf{
+    height: 660px;
+    width: 510px;
+  }
+
+  .par{
+    font-size: 22px;
+    margin: 15px;
+    font-family: Semplicita;
+  }
+
   /*objectius*/
   #objectius{
     width: 100%;
@@ -865,7 +921,7 @@ form button:hover{
     margin-top: 40px;
   }
   
-  .objectius.imagen{
+  .objectius.imatge{
     background-image: url(../img/outdoors.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -901,16 +957,16 @@ form button:hover{
   /*Inici Contacte*/
   #contacte{
     width: 100%;
-    height: 215px;
+    height: 260px;
     background-color: ;
-    padding-top: 30px;
+    padding-top: 8px;
     overflow: hidden;
   }
   
   #contacte h1{
     text-align: center;
     font-size: 45px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-family: Amandine;
     font-weight: bolder;
   }
@@ -919,6 +975,7 @@ form button:hover{
     text-align: center;
     font-size: 22px;
     font-family: Semplicita;
+    margin: 10px;
   }
   
   #contacte .linia{
@@ -927,6 +984,7 @@ form button:hover{
     background-color: #FF0000;
     max-width: 0 auto;
     top: 20px;
+    bottom: 20px;
     margin: 0 auto;
   }
   
@@ -945,6 +1003,8 @@ form button:hover{
     font-size: 17px;
     font-family: Semplicita;
   }
+
+  /*................*/
 
   /*Pàgina serveis*/
   /*inici*/
@@ -966,21 +1026,17 @@ form button:hover{
     font-weight: bolder;
   }
 
-
-
-
   /*Disseny div blanc*/
   #blanc{
     width: 100%;
+    height: 370px;
     background-color: ;
     overflow: hidden;
-    padding: 50px;
   }
  
   .blanc_caixa{
     width: 95%;
-    height: 300px;
-    background-color: ;
+    background-color:;
     margin: 0 auto;
   }
  
@@ -989,19 +1045,14 @@ form button:hover{
     height: 300px;
     background-color: ;
     float: left;
+    top: 40px;
   }
- 
-  .blanc.imagen{
-    background-image: url(../img/ordinador.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
- 
+
   .blanc.text{
     width: 530px;
+    height: 100%;
     float: right;
-    height: 180px;
-    top: 60px;
+    top: 80px;
     font-family: Amandine;
     font-weight: 400;
   }
@@ -1022,41 +1073,38 @@ form button:hover{
     font-family: Semplicita;
   }
 
-
-  /*Disseny div negre*/
-  /*objectius*/
-  #negre{
-    width: 100%;
-    background-color: black;
-    overflow: hidden;
-    padding: 50px;
- 
-  }
- 
-  .negre_caixa{
-    width: 95%;
-    height: 300px;
-    background-color: ;
-    margin: 0 auto;
-  }
- 
-  .negre.text{
-    width: 450px;
-    height: 220px;
-
-
-  }
- 
-  .negre.imagen{
-    background-image: url(../img/outdoors.jpg);
+  .blanc.imatge.grafic{
+    background-image: url(../img/disseny_grafic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    filter: sepia(280%);
-    float: right;
-    width: 440px;
-    height: 300px;
+  }
+  
+  .blanc.imatge.web{
+    background-image: url(../img/disseny_web.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .blanc.imatge.packaging{
+    background-image: url(../img/packaging.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .blanc.imatge.estampacio{
+    background-image: url(../img/estampacio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
  
+  /*Disseny div negre*/
+  #negre{
+    width: 100%;
+    height: 370px;
+    background-color: black;
+    overflow: hidden;
+  }
+
   .negre{
     width: 400px;
     height: 300px;
@@ -1064,6 +1112,21 @@ form button:hover{
     float: left;
   }
  
+  .negre_caixa{
+    width: 95%;
+    height: 300px;
+    background-color: ;
+    margin: 0 auto;
+    top: 30px;
+  }
+ 
+  .negre.text{
+    width: 450px;
+    height: 300px;
+    background-color: ;
+    top: 30px;
+  }
+
   .negre.text h1{
     text-align: left;
     font-size: 45px;
@@ -1076,25 +1139,53 @@ form button:hover{
     text-align: left;
     font-size: 22px;
     color: white;
-    font-family: Semplicita;
+    font-family: Semplicita; 
+    margin-top: 10px;
   }
 
+  .negre.imatge{
+    background-image: url(../img/outdoors.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: sepia(280%);
+    float: right;
+    width: 440px;
+    height: 300px;
+  }
 
-
-
-
+  .negre.imatge.corporatius{
+    background-image: url(../img/disseny_corporatiu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+  }
   
+  .negre.imatge.gestio{
+    background-image: url(../img/gestio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+  }
+  
+  .negre.imatge.impressio{
+    background-image: url(../img/impressio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+  }
+ 
+/*................*/
+
   /*Pàgina contacte*/
   #mapa{
     margin-top: 0px;
   }
   
   .container_contacto{
-    width:500px;
-    height: 570px;;
-    background-color: transparent;
+    width:400px;
+    height: 490px;;
+    background-color: ;
     display: flex;
-    top: 50px;
     margin: 0 auto;
   }
   
@@ -1105,11 +1196,13 @@ form button:hover{
     display:flex;
     flex-direction: column;
     padding: 2vw 4vw;
-    width:90%;
+    width: 85%;
+    height: 400px;
     max-width: 600px;
     border-radius: 10px;
     margin: 0 auto;
-    bottom: 80px;
+    top: 20px;
+    bottom: 180px;
   }
   
   form h3{
@@ -1121,7 +1214,7 @@ form button:hover{
   form input, form textarea{
     border:0;
     margin: 10px 0;
-    padding: 20px;
+    padding: 10px;
     outline: none;
     background: #f5f5f5;
     font-size: 16px;
@@ -1146,7 +1239,6 @@ form button:hover{
   }
 
 }
-
 
 
 
@@ -1208,12 +1300,12 @@ nav .logo{
   background-color: #FF0000;
 }
 
-.rectangle.tazas{
+.rectangle.tassa{
   width: 350px;
   height: 280px;
   top: 70px;
   margin: 0 auto;
-  background-image: url(../img/tazas.png);
+  background-image: url(../img/tassa.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1324,14 +1416,14 @@ label a {
 }
 
 /*Qui som?*/
-#nostros{
+#nostres{
   width: 100%;
   height: 580px;
   background-color: ;
   overflow: hidden;
 }
 
-.nostros_caixa{
+.nostres_caixa{
   width: 95%;
   height: 300px;
   background-color: ;
@@ -1339,26 +1431,26 @@ label a {
   top: 50px; 
 }
 
-.nostros{
+.nostres{
   width: 400px;
   height: 300px;
   background-color: ;
   margin: 0 auto;
 }
 
-.nostros.imagen{
+.nostres.imatge{
   background-image: url(../img/ordinador.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.nostros.text{
+.nostres.text{
   top: 30px;
   font-family: Amandine;
   font-weight: 400;
 }
 
-.nostros.text h1{
+.nostres.text h1{
   color: #FF0000;
   text-align: right;
   font-size: 30px;
@@ -1366,7 +1458,7 @@ label a {
   font-weight: bolder;
 }
 
-.nostros.text p{
+.nostres.text p{
   text-align: right;
   font-size: 18px;
   margin: 13px;
@@ -1385,21 +1477,20 @@ label a {
 }
 
 .mission.text{
-  width: 400px;
-  height: 410px;
+  width: 100%;
+  height: 470px;
   background-color: black;
   filter: opacity(80%);
-  margin: 0 auto;
-  top: 10px;  
+  margin: 0 auto; 
 }
 
 #mission h1{
   text-align: center;
   color: white;
   font-size: 30px;
-  margin-top: 20px;
   font-family: Amandine;
   font-weight: bolder;
+  top: 15px;
 }
 
 #mission p{
@@ -1407,20 +1498,22 @@ label a {
   color: white;
   font-size: 18px;
   font-family: Semplicita;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 #mission .linia_rojo{
   width: 300px;;
-  height: 6px;
+  height: 4px;
   background-color: #FF0000;
   margin: 0 auto;
-  top: 10px;
 }
 
 /*Valors*/
 #valors{
   width: 100%;
-  height: 1170px;
+  height: 940px;
   background-color: ;
   padding-top: 40px;
   overflow: hidden;
@@ -1428,8 +1521,8 @@ label a {
 
 .valors_caixa{
   width: 95%;
-  height: 730px;
-  background-color: pink;
+  height: 900px;
+  background-color: ;
   margin: 0 auto;
 }
 
@@ -1439,7 +1532,7 @@ label a {
   background-color: ;
   margin: 0 auto;
   margin: 3px;
-  background-color: antiquewhite;
+  background-color: ;
 }
 
 .valors h1{
@@ -1451,33 +1544,47 @@ label a {
   font-weight: bolder;
 }
 
-.valors h2{
-  font-size: 17px;
-  margin-bottom: 240px;
-  font-family: Amandine;
-}
-
-.valors p{
-  font-size: 18px;
-  margin: 15px;
-  font-family: Semplicita;
-  bottom: 650px;
-}
-
-.valors.titulo{
+.valors.titol{
   height: 75px;
   width: 95px;
 }
 
-.valors.subtitulo{
+.valors.subtitol{
   height: 630px;
   width: 145px;
 }
 
-.valors.par{
-  height: 1140px;
+.sub{
+  font-size: 17px;
+  font-family: Amandine;
+}
+
+.sub.segon{
+  top: 140px;
+}
+ 
+.sub.tercer{
+  top: 260px;
+}
+ 
+.sub.quatre{
+   top: 410px;
+}
+.sub.cinque{
+   top: 550px;
+}
+
+.valors.paragraf{
+  height: 10px;
   width: 270px;
   float: right;
+}
+
+.par{
+  font-size: 18px;
+  margin: 15px;
+  font-family: Semplicita;
+  bottom: 650px;
 }
 
 /*objectius*/
@@ -1501,7 +1608,7 @@ label a {
   height: 240px;
 }
 
-.objectius.imagen{
+.objectius.imatge{
   background-image: url(../img/outdoors.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1513,7 +1620,6 @@ label a {
   height: 200px;
   background-color: ;
   margin: 0 auto;
-
 }
 
 .objectius.text h1{
@@ -1535,7 +1641,7 @@ label a {
 /*Inici Contacte*/
 #contacte{
   width: 100%;
-  height: 185px;
+  height: 210px;
   background-color: ;
   padding-top: 15px;
   overflow: hidden;
@@ -1553,6 +1659,7 @@ label a {
   text-align: center;
   font-size: 18px;
   font-family: Semplicita;
+  margin: 6px;
 }
 
 #contacte .linia{
@@ -1560,7 +1667,7 @@ label a {
   height: 6px;
   background-color: #FF0000;
   max-width: 0 auto;
-  top: 20px;
+  top: 15px;
   margin: 0 auto;
 }
 
@@ -1579,6 +1686,8 @@ label a {
   font-size: 15px;
   font-family: Semplicita;
 }
+
+/*................*/
 
 /*Pàgina Serveis*/
 /*Nostres Serveis*/
@@ -1601,14 +1710,14 @@ label a {
 /*Disseny div blanc*/
 #blanc{
   width: 100%;
-  height: 580px;
+  height: 640px;
   background-color: ;
   overflow: hidden;
 }
 
 .blanc_caixa{
   width: 95%;
-  height: 300px;
+  height: 530px;
   background-color: ;
   margin: 0 auto;
   top: 50px; 
@@ -1621,8 +1730,26 @@ label a {
   margin: 0 auto;
 }
 
-.blanc.imagen{
-  background-image: url(../img/ordinador.jpg);
+.blanc.imatge.grafic{
+  background-image: url(../img/disseny_grafic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blanc.imatge.web{
+  background-image: url(../img/disseny_web.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blanc.imatge.packaging{
+  background-image: url(../img/packaging.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blanc.imatge.estampacio{
+  background-image: url(../img/estampacio.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1631,6 +1758,7 @@ label a {
   top: 30px;
   font-family: Amandine;
   font-weight: 400;
+  height: 200px;
 }
 
 .blanc.text h1{
@@ -1644,42 +1772,65 @@ label a {
 .blanc.text p{
   text-align: right;
   font-size: 18px;
+  margin-top: 13px;
   font-family: Semplicita;
 }
+
 
 /*Disseny div negre*/
 #negre{
   width: 100%;
-  height: 480px;
+  height: 600px;
   background-color: black;
   overflow: hidden;
 }
 
 .negre_caixa{
   width: 95%;
-  height: 300px;
+  height: 480px;
   background-color: ;
   margin: 0 auto;
-  top: 5px;
-}
-
-.negre.text{
-  top: 30px;
-  height: 240px;
-}
-
-.negre.imagen{
-  background-image: url(../img/outdoors.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: sepia(280%);
+  top: 60px;
 }
 
 .negre{
   width: 400px;
-  height: 200px;
+  height: 300px;
   background-color: ;
   margin: 0 auto;
+}
+
+.negre.imatge{
+  width: 400px;
+  height: 300px;
+}
+
+.negre.imatge.corporatius{
+  background-image: url(../img/disseny_corporatiu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.negre.imatge.gestio{
+  background-image: url(../img/gestio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.negre.imatge.impressio{
+  background-image: url(../img/impressio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+.negre.text{
+  top: 30px;
+  font-family: Amndine;
+  height: 150px;
+  background-color: ;
 }
 
 .negre.text h1{
@@ -1698,9 +1849,7 @@ label a {
   font-family: Semplicita;
 }
 
-
-
-
+/*................*/
 
 /*Pàgina contacte*/
 #mapa{
@@ -1762,13 +1911,6 @@ form button:hover{
   box-shadow: 0 0 5px #FF0000,
               0 0 5px #FF0000;
 }
-
-
-
-
-
-
-
 
 }
 
