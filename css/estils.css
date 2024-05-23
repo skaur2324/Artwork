@@ -123,55 +123,55 @@ label{
 }
 
 /*Qui som?*/
-#nostros{
+#nostres{
   width: 100%;
-  height: 800px;
+  height: 840px;
   background-color: ;
   overflow: hidden;
 }
 
-.nostros_caixa{
+.nostres_caixa{
   width: 90%;
-  height: 600px;
+  padding: 20px;
   background-color: ;
   margin: 0 auto;
   top: 100px; 
 }
 
-.nostros{
+.nostres{
   width: 880px;
   height: 600px;
   background-color: ;
   float: left;
 }
 
-.nostros.imagen{
+.nostres.imatge{
   background-image: url(../img/ordinador.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.nostros.text{
-  height: 250px;
+.nostres.text{
+  height: 230px;
   width: 770px;
   float: right;
-  top: 170px;
+  top: 190px;
   background-color: ;
 }
 
-.nostros.text h1{
+.nostres.text h1{
   color: #FF0000;
-  text-align: right;
   font-size: 50px;
   font-family: Amandine;
   font-weight: bolder;
+  text-align: right;
 }
 
-.nostros.text p{
+.nostres.text p{
   text-align: right;
-  font-size: 30px;
-  margin: 13px; 
+  font-size: 30px; 
   font-family: Semplicita;
+  top: 40px;
 }
 
 /*Missió i Visió*/
