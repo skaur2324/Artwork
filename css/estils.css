@@ -123,51 +123,54 @@ label{
 }
 
 /*Qui som?*/
-#nostres{
+#nostros{
   width: 100%;
+  height: 800px;
   background-color: ;
   overflow: hidden;
 }
 
-.nostres_caixa{
+.nostros_caixa{
   width: 90%;
-  padding: 20px;
-  background-color: yellow;
+  height: 600px;
+  background-color: ;
   margin: 0 auto;
-  overflow: hidden;
+  top: 100px; 
 }
 
-.nostres{
-  width: 800px;
-  height: 500px;
-  background-color: antiquewhite;
-  top: 60px;
+.nostros{
+  width: 880px;
+  height: 600px;
+  background-color: ;
+  float: left;
 }
 
-.nostres.imatge{
+.nostros.imagen{
   background-image: url(../img/ordinador.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.nostres.text{
-  height: 230px;
+.nostros.text{
+  height: 250px;
   width: 770px;
   float: right;
+  top: 170px;
   background-color: ;
 }
 
-.nostres.text h1{
+.nostros.text h1{
   color: #FF0000;
+  text-align: right;
   font-size: 50px;
   font-family: Amandine;
   font-weight: bolder;
-  text-align: right;
 }
 
-.nostres.text p{
+.nostros.text p{
   text-align: right;
-  font-size: 30px; 
+  font-size: 30px;
+  margin: 13px; 
   font-family: Semplicita;
 }
 
@@ -258,7 +261,8 @@ label{
 .valors.subtitol{
   height: 830px;
   width: 220px;
-  margin-top: 35px;
+  margin-top: 70px;
+  background-color: ;
 }
 
 .sub{
@@ -1427,6 +1431,7 @@ label a {
   background-color:;
   margin: 0 auto;
   top: 20px;
+  padding: 15px;
 }
 
 .nostres{
@@ -1558,18 +1563,18 @@ label a {
 }
 
 .sub.segon{
-  top: 140px;
+  top: 135px;
 }
  
 .sub.tercer{
-  top: 260px;
+  top: 255px;
 }
  
 .sub.quatre{
-   top: 410px;
+   top: 405px;
 }
 .sub.cinque{
-   top: 550px;
+   top: 515px;
 }
 
 .valors.paragraf{
@@ -1603,6 +1608,7 @@ label a {
 .objectius.text{
   top: 30px;
   height: 240px;
+  
 }
 
 .objectius.imatge{
@@ -1697,7 +1703,7 @@ label a {
 
 #serveis h1{
   color: black;
-  font-size: 80px;
+  font-size: 60px;
   margin-left: 50px;
   position: relative;
   font-family: Arboria;
